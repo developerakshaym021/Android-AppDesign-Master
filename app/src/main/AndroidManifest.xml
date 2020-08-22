@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.www.developerakshaym.baihai">
+
+
+    <!-- Develope By developerakshaym021 Github.....(Akshay Mishra)-->
+
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:icon="@mipmap/ic_appnew"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SubscribeFoundationActivity" />
+        <activity android:name=".activity.FeedbackActivity" />
+        <activity android:name=".activity.SportsActivity" />
+        <activity android:name=".activity.ProductsActivity" />
+        <activity android:name=".activity.SettingActivity" />
+        <activity android:name=".activity.AboutUsActivity" />
+        <activity android:name=".activity.AccountActivity" />
+        <activity android:name=".activity.EditAccountActivity" />
+        <activity android:name=".activity.SupportActivity" />
+        <activity android:name=".activity.ThankyouActivity" />
+        <activity android:name=".activity.ThankyouPointActivity" />
+        <activity android:name=".activity.HomeActivity"/>
+        <activity android:name=".activity.LoginActivity"/>
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.FeedbackActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Tell the donor why do you want this product..?"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/edit_background"
+        android:gravity="top"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:maxLines="4"
+        android:minLines="4"
+        android:padding="10dp"
+        android:textColor="@color/colorGreen"
+        android:textColorHint="@color/colorBlack"
+        android:autofillHints="" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        app:cardBackgroundColor="@color/colorGreen"
+        app:cardCornerRadius="8dp">
+
+        <TextView
+            android:id="@+id/tv_send"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Send"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

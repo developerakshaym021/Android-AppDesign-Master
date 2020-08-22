@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:background="#fff"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_backpickup"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:adjustViewBounds="true"
+            android:layout_margin="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:adjustViewBounds="true"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/shipping" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="You will need to pay for\nthe delivery"
+        android:textColor="@color/colorBlack"
+        android:textSize="25dp"
+        />
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tv_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="16dp"
+        app:cardBackgroundColor="@color/colorGreen"
+        app:cardCornerRadius="8dp">
+
+        <TextView
+            android:id="@+id/tv_continue"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Conitnue"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

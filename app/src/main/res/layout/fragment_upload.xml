@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:adjustViewBounds="true"
+                android:layout_margin="16dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Personal Donation"
+                android:textColor="@color/colorBlack"
+                android:layout_marginRight="40dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:id="@+id/iv_upload"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:layout_margin="16dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ui" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/edit_form"
+                android:layout_marginTop="5dp">
+
+
+
+
+
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="10dp"
+                    android:inputType="text"
+                    android:adjustViewBounds="true"
+                    android:hint="Product Name"
+                    android:singleLine="true"
+                    android:padding="10dp"
+                    android:background="@drawable/edit_form"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorGray" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/tv_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="16dp"
+                app:cardBackgroundColor="@color/colorGreen"
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:id="@+id/tv_uploadproduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Upload"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
